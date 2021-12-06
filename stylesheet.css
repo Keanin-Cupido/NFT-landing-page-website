@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #11062e;
+    background: linear-gradient(180deg, #14062e 0%, #0f0324 100%);
+}
+
+ul {
+    list-style: none;
+    color: white;
+}
+
+h1, h2, h3, p {
+    color: white;
+}
+
+/* ====================================================== */
+
+/* Background Image */
+
+
+/* Header */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 80px;
+}
+
+.nav-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-left p {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.nav-link {
+    font-family: 400;
+}
+
+.nav-link:hover {
+    color: #d7c6ff;
+    cursor: pointer;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+/* Buttons */
+.btn-light {
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-width: 1px;
+    font-size: 0.75rem;
+}
+
+.btn-light:hover {
+    cursor: pointer;
+    background-color: #0f0225;
+}
+
+.btn-dark {
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: white;
+    background-color: #8500ec;
+    border: none;
+    font-size: 0.75rem;
+}
+
+.btn-dark:hover {
+    cursor: pointer;
+    background-color: #6f0bbb;
+}
+
+/* Landing Section */
+.landing-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 60px 80px;
+    max-width: 25%;
+}
+
+.landing-section h1 {
+    font-size: 3.5rem;
+}
+
+.landing-section p {
+    font-size: 1rem;
+}
+
+.landing-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.landing-stats {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.stats-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.stats-col p:first-child {
+    font-size: 2.33rem;
+    font-weight: 600;
+}
+
+.stats-col p:nth-child(2) {
+    font-size: 1rem;
+}
+
+/* Main Section */
+
+/* Footer */
