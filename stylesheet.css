@@ -31,7 +31,7 @@ h1, h2, h3, p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 80px;
+    padding: 50px 120px;
 }
 
 .nav-left {
@@ -84,6 +84,21 @@ h1, h2, h3, p {
     background-color: #0f0225;
 }
 
+.btn-light-2 {
+    border-radius: 50px;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-width: 1px;
+    font-size: 0.75rem;
+}
+
+.btn-light-2:hover {
+    cursor: pointer;
+    background-color: #0f0225;
+}
+
 .btn-dark {
     border-radius: 5px;
     padding: 10px 30px;
@@ -98,6 +113,22 @@ h1, h2, h3, p {
     background-color: #6f0bbb;
 }
 
+.btn-dark-2 {
+    border-radius: 50px;
+    padding: 10px 30px;
+    color: white;
+    background-color: #8500ec;
+    border: none;
+    font-size: 0.75rem;
+}
+
+.btn-dark-2:hover {
+    cursor: pointer;
+    background-color: #6f0bbb;
+}
+
+
+
 /* Landing Section */
 .landing-section {
     display: flex;
@@ -105,12 +136,12 @@ h1, h2, h3, p {
     justify-content: left;
     align-items: flex-start;
     gap: 40px;
-    padding: 60px 80px;
-    max-width: 25%;
+    padding: 80px 120px;
+    max-width: 28%;
 }
 
 .landing-section h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
 }
 
 .landing-section p {
@@ -149,5 +180,161 @@ h1, h2, h3, p {
 }
 
 /* Main Section */
+/* Section 1 */
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+}
+
+.section-1-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 120px;
+}
+
+.cards-1-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 0 120px;
+    flex-wrap: wrap;
+
+}
+
+.card-1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #070014;
+    width: 350px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.card-1-image {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.card-1-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px 30px;
+}
+
+.bids-row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 80px;
+}
+
+.bids-row-left img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+/* Section 2 */
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 80px;
+}
+
+.section-2-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 120px;
+}
+
+.creators-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px 30px;
+    padding: 0 120px;
+    align-items: center;
+}
+
+.creator-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    background: #070014;
+    background: linear-gradient(90deg, #100b3a 0%, #a61aeb 100%);
+    border-radius: 5px;
+    padding: 25px 20px;
+}
+
+.creator-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.creator-card p {
+    max-width: 150px;
+    margin-left: 30px;
+    font-style: italic;
+}
+
+.creator-card-right {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.creator-card-right p {
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* Section 3 */
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 120px;
+    margin-top: 80px;
+    gap: 60px;
+}
+
+.section-3-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-2-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+}
+
+.card-2 {
+    background-color: #2c0d61;
+    border-width: 60px;
+    border-color: #6f0bbb;
+    border-radius: 10px;
+}
+
+.card-2 p {
+    padding: 60px;
+    align-items: center;
+    text-align: center;
+}
 
 /* Footer */
